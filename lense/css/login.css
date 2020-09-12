@@ -1,4 +1,5 @@
 .Back-img{
 
     background-image: url(../images/back-img.jpg);
+    height: 100vh;
 }
