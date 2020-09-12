@@ -6,8 +6,7 @@
     width: 25%;
 }
 .body {
-  background-image: linear-gradient(to top right, red, blue); 
-  font-family: verdana;
+  background-color: darkcyan;
 
 }
 
@@ -28,3 +27,4 @@ color: chartreuse;
     background-color: cornflowerblue;
     font-size: xx-large;
 }
+
