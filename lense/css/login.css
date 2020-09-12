@@ -6,3 +6,10 @@
     height: 100vh;
     background-attachment: scroll;
 }
+
+.center-me{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
