@@ -28,3 +28,11 @@ color: chartreuse;
     font-size: xx-large;
 }
 
+.carousel { 
+    width:200px; 
+    height:200px; 
+    } 
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
