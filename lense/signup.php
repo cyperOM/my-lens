@@ -31,8 +31,13 @@ require "includes/header.php"
 </div> <!-- End Row!--> 
 <div class="row">
     <div class ="col">
-<input type="password" class= "form-control" name="Password" placeholder="Username " required="required">
+<input type="password" class= "form-control" name="pwd" placeholder="Password" required="required">
+
 </div> <!-- End col !--> 
+<div class ="col">
+<input type="password" class= "form-control" name="con-pwd" placeholder="Confirm Password " required="required">
+
+</div> <!-- End col !-->
 </div> <!-- End Row!--> 
 
 <div class="row">
