@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html class="no-js"> 
-
+<?php
+require "includes/header.php"
+?>
+<main>
     <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +24,7 @@
       </div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="login.html">login</a></li>
+        <li><a href="login.php">login</a></li>
 
 
         <li class="nav-item dropdown">
@@ -69,4 +70,4 @@
 
 
 </body>
-</html>
+</main>
