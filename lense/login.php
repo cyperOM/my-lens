@@ -18,11 +18,11 @@ require "includes/header.php"
         <div class="Back-img">
             <div class="h100 center-me">
 <div class="my-auto">
-<form class="form-signin">
+<form class="form-signin" action="includes/login.php" method="post" style="background-color: white;">
     <img class="mb-4" src="images/logo.png" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
     <label for="inputEmail" class="sr-only">Email address</label>
-    <input type="email" id="inputEmail" class="form-control" name="email" placeholder="Email address" required autofocus>
+    <input type="text" id="inputEmail" class="form-control" name="Uname" placeholder="Email address/ Username" required autofocus>
     <label for="inputPassword" class="sr-only">Password</label>
     <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password" required>
     <div class="checkbox mb-3">
@@ -30,7 +30,7 @@ require "includes/header.php"
         <input type="checkbox" value="remember-me"> Remember me
       </label>
     </div>
-    <button class="btn btn-info" type="submit" name="login">Sign in</button>
+    <button class="btn btn-info" name="login" type="submit" >Sign in</button>
     <div class="Slide">
         <div id="demo" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">
