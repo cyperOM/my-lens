@@ -33,7 +33,7 @@ if(isset($_POST['signup-submit'])){
         exit();
       }
       else{
-          $sql ="INSERT INTO users (Fname,Lname,Email,Uname,Password) VALU ES(?,?,?,?,?)";
+          $sql ="INSERT INTO users (Fname,Lname,Email,Uname,Password) VALUES(?,?,?,?,?)";
           $stmt = mysqli_stmt_init($conn); 
           if(!mysqli_stmt_prepare($stmt,$sql)){
             header("location:../signip.php?error=SQLinjectionAlert");
