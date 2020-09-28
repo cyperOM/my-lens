@@ -1,22 +1,18 @@
 <?php 
-session_start();
 
 require 'includes/header.php';
-include "dbhandler.php";
+?>
+<main>
+<?php
 
-if(!isset($_SESSION['Uname'])){
-    header('Location: about.php');
+if (isset($_SESSION['New ID'])) {
+    include 'html/profile.html';
+}else {
+    header("Location: ../login.php");
+    exit();
 }
 
-// logout
-if(isset($_POST['but_logout'])){
-    session_destroy();
-    header('Location: login.php');
-}
 
 ?>
 
-<main>
-        
-      
 </main>
