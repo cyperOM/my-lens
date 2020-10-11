@@ -1,31 +1,54 @@
 h1 {
+    text-align: center;
     
 }
 
 h3{
+    color: aqua;
    
 }
 
 p{
+    color: aquamarine;
      
 }
 
 img{
+    max-width: 250px;
+    height: 300px;
+    margin: 10px;
     
 }
 
 .gallery-container{
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
    
 }
 
 .card {
+    border-radius: 10px;
+    margin: 10px;
+    width: 20%;
+    max-width: 260px;
+    height: auto;
+    padding: 5px;
   
 
 }
 .gallery-container a{
+    background-color: cadetblue;
+    background-position: center;
+    background-size: cover;
 
 }
 
 .gallery-container a:hover{
+    background-color: cadetblue;
+    opacity: 90%;
+    text-decoration-color: cadetblue;
     
 }
