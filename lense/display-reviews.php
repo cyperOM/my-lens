@@ -1,6 +1,6 @@
 $servename = "localhost";
 $DBuname = "root";
-$DBPass = "";
+$DBPass = "mohammed";
 $DBname = "cs230";
 
 $conn = mysqli_connect($servename, $DBuname, $DBPass, $DBname);
