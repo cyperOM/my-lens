@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 04, 2020 at 07:11 PM
+-- Generation Time: Nov 04, 2020 at 07:27 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -32,7 +32,7 @@ CREATE TABLE `pictures` (
   `title` varchar(60) NOT NULL,
   `discription` text NOT NULL,
   `picpath` varchar(80) NOT NULL,
-  `upload_date` date NOT NULL DEFAULT current_timestamp(),
+  `upload_date` timestamp NOT NULL DEFAULT current_timestamp(),
   `rating` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -60,7 +60,7 @@ CREATE TABLE `reviews` (
   `uname` varchar(80) NOT NULL,
   `title` varchar(60) NOT NULL,
   `review_text` text NOT NULL,
-  `rev_date` datetime NOT NULL,
+  `rev_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `rating_num` int(11) NOT NULL,
   `status` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
