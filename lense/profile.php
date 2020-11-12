@@ -62,7 +62,7 @@ if (isset($_SESSION['New ID'])) {
         <div class="form-group">
                 <img src="<?php echo $photo ;?>" onclick="triggered();"id="prof-display">
                 <label for="prof-image" id="Uname-style"><?php echo$prof_user;?></label>
-                <input type="file" name ="pro-image" id="prof-image" onchange="preview(this)" class="form-control" style="display: non;">
+                <input type="file" name ="prof-image" id="prof-image" onchange="preview(this)" class="form-control" style="display: non;">
 
 
 

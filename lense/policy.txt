@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Id": "cs230-upload-policy",
+    "Statement": [
+        {
+            "Sid": "lens-s3-upload",
+            "Principal": {"AWS" : "arn:aws:s3:::lens-1"},
+            "Action":[
+              "s3:PutObject",
+              "s3:GetObject",
+              "s3:GetBucketLocation",
+              "s3:Get*",
+              "s3.Put*"]
+            "Effect": "Allow",
+            "Resource": [
+                "arn:aws:s3:::lens-1",
+                "arn:aws:s3:::lens-1/*"
+            ]
+        }
+    ]
+}
